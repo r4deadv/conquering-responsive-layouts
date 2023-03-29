@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,700");
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -10,6 +12,7 @@ body {
 }
 
 .intro {
+  padding: 6em 0;
   background-color: #23424a;
   color: #fff;
 }
@@ -22,7 +25,6 @@ body {
 
 .intro-content {
   width: 60%;
-  padding: 6rem 0;
 }
 
 .intro-title {
@@ -31,17 +33,26 @@ body {
 }
 
 .intro-text {
-  padding-bottom: 2em;
+  margin-bottom: 3em;
 }
 
 .btn {
-  font-size: 1.3rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: black;
-  background-color: #38cfd9;
   display: inline-block;
   text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #23424a;
+  background-color: #38cfd9;
   padding: 0.5em 2em;
-  border-radius: 2em;
+  border-radius: 5em;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.75;
+}
+
+.btn:focus {
+  outline: transparent;
 }

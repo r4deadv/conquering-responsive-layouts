@@ -26,12 +26,18 @@ h1 {
 
   /* default = row */
   flex-direction: row;
+
+  gap: 100px;
 }
 
 .col {
   /* these are now flex items */
   width: 100%;
 }
+
+/* .col + .col {
+  margin-left: 30px;
+} */
 
 .hero {
   padding: 100px 0;

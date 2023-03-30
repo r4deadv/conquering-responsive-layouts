@@ -20,6 +20,19 @@ h1 {
   margin: 0 auto;
 }
 
+.row {
+  /* display flex => flex container */
+  display: flex;
+
+  /* default = row */
+  flex-direction: row;
+}
+
+.col {
+  /* these are now flex items */
+  width: 100%;
+}
+
 .hero {
   padding: 100px 0;
   background-color: #23424a;

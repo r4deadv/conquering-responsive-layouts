@@ -1,0 +1,39 @@
+.container {
+  background-color: pink;
+  height: 50vh;
+  width: 80vw;
+  padding: 0.5em;
+  margin: 25vh auto 0;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.item {
+  background: lightblue;
+  margin: 0.5em;
+}
+
+.one {
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 250px; */
+  flex: 1 1 250px;
+}
+
+.two {
+  /* flex-grow: 1;
+  flex-shrink: 2;
+  flex-basis: 250px; */
+  flex: 1 2 250px;
+  align-self: flex-end;
+
+  order: -1;
+}
+
+.three {
+  flex-grow: 3;
+  flex-shrink: 1;
+  flex-basis: 250px;
+}

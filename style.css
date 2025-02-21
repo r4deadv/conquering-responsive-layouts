@@ -25,6 +25,21 @@ h1 {
   margin: 0 auto;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+
+  gap: 2em;
+}
+
+/* .col + .col {
+  margin-left: 2em;
+} */
+
+.col {
+  width: 100%;
+}
+
 .hero {
   padding: 100px 0;
   background-color: #23424a;

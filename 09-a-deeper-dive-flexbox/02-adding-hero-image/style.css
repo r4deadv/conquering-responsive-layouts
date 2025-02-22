@@ -10,6 +10,10 @@ body {
   font-size: 1.3rem;
 }
 
+img {
+  max-width: 100%;
+}
+
 h1 {
   font-size: 3rem;
   margin-top: 0;
@@ -23,6 +27,7 @@ h1 {
 
 .row {
   display: flex;
+  justify-content: space-between;
 }
 
 .hero {
@@ -33,6 +38,11 @@ h1 {
 
 .hero__text {
   width: 62%;
+}
+
+.hero__img {
+  width: 30%;
+  align-self: flex-start;
 }
 
 .hero p {

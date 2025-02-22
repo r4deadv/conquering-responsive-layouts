@@ -41,7 +41,7 @@ h1 {
 
 .col-left,
 .col-right {
-  margin-top: 2em;
+  margin: 2em 0;
 }
 
 .row {
